@@ -15,7 +15,6 @@ import './sass/main.scss';
   const idexit4 = document.querySelector('[data-id-exit4]');
   const idexit5 = document.querySelector('[data-id-exit5]');
 
-
   menuBtnRef.addEventListener('click', () => {
     mobileMenuRef.classList.toggle('is-open');
 
@@ -78,7 +77,6 @@ $(document).ready(function () {
   });
 });
 
-
 $(document).ready(function () {
   $('#menu2').on('click', 'a', function (event) {
     event.preventDefault();
@@ -87,7 +85,6 @@ $(document).ready(function () {
     $('body,html').animate({ scrollTop: top }, 1500);
   });
 });
-
 
 $('.single-item').slick({
   autoplay: true,
